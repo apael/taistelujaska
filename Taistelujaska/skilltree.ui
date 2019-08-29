@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>skilltree</class>
+ <widget class="QWidget" name="skilltree">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="warrBtn">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Warrior</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mageBtn">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mage</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rogueBtn">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rogue</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneBtn">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Done</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>80</y>
+     <width>1211</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="warrBox">
+      <property name="title">
+       <string>Warrior Skills</string>
+      </property>
+      <widget class="QLabel" name="warrSkillLbl">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_1">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhDigitsOnly</set>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+       <property name="singleStep">
+        <number>1</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_5">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_5">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>40</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_9">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>30</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_9">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>40</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_10">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_7">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_11">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_8">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="warrSkillLbl_12">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="warrSkillSpin_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>190</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::PlusMinus</enum>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="magebox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="mageSkillLbl_1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_1">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_5">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_5">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_9">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_9">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="mageSkillLbl_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="mageSkillSpin_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>190</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="rogueBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="rogueSkillLbl_1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_1">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_5">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_5">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_9">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_9">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>30</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>80</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>90</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>130</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>140</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>190</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="rogueSkillLbl_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>180</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="rogueSkillSpin_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>190</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PLeftLbl">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Points left:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset Skills</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

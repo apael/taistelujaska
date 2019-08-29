@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/kuvat">
+        <file>panssari.png</file>
+        <file>panssari2.png</file>
+        <file>miekka.png</file>
+        <file>potion.png</file>
+        <file>mp_pot.png</file>
+        <file>sup_pot.png</file>
+        <file>dagger.png</file>
+        <file>staff.png</file>
+    </qresource>
+</RCC>
